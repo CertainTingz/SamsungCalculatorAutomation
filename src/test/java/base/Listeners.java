@@ -26,7 +26,7 @@ public class Listeners extends ScreenShots implements ITestListener {
         try {
             extent.createTest(result.getName()).
                     log(Status.PASS, "This is a logging event for " + result.getName() + " and it passed!").
-                    addScreenCaptureFromPath(getScreenshot("Passed_").toString() + ".png").assignAuthor("Lyndon Takudzwa Simango");;
+                    addScreenCaptureFromPath(getScreenshot("Passed_")+ ".png").assignAuthor("Lyndon Takudzwa Simango");
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
@@ -45,7 +45,7 @@ public class Listeners extends ScreenShots implements ITestListener {
             Throwable e = result.getThrowable();
             extent.createTest(result.getName()).
                     log(Status.FAIL, "This is a logging event for " + result.getName() + " and it failed!").
-                    addScreenCaptureFromPath(getScreenshot("Failed_").toString() + ".png").assignAuthor("Lyndon Takudzwa Simango").info(e);
+                    addScreenCaptureFromPath(getScreenshot("Failed_") + ".png").assignAuthor("Lyndon Takudzwa Simango").info(e);
         } catch (IOException e) {
             throw new RuntimeException(e);
 
@@ -62,7 +62,7 @@ public class Listeners extends ScreenShots implements ITestListener {
             Throwable e = result.getThrowable();
             extent.createTest(result.getName()).
                     log(Status.SKIP,"This is a logging event for "+result.getName()+" and it was skipped!").
-                    addScreenCaptureFromPath(getScreenshot("Skipped_").toString()+ ".png").assignAuthor("Lyndon Takudzwa Simango").info(e);
+                    addScreenCaptureFromPath(getScreenshot("Skipped_")+ ".png").assignAuthor("Lyndon Takudzwa Simango").info(e);
         } catch (IOException e) {
             throw new RuntimeException(e);
 
@@ -87,7 +87,7 @@ public class Listeners extends ScreenShots implements ITestListener {
             Throwable e = result.getThrowable();
             extent.createTest(result.getName()).
                     log(Status.FAIL,"This is a logging event for "+result.getName()+" and it failed!").
-                    addScreenCaptureFromPath(getScreenshot("Failed_").toString()+ ".png").assignAuthor("Lyndon Takudzwa Simango").info(e);
+                    addScreenCaptureFromPath(getScreenshot("Failed_")+ ".png").assignAuthor("Lyndon Takudzwa Simango").info(e);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
