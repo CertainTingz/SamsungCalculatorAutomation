@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="C:/Users/lyndo/Practical/SamsungCalculatorAutomation"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.067">
+  <properties />
+  
+  
+            <testcase name="subtractionTest" time="4.067" classname="testcases.SubtractionTest" />
+      
+</testsuite>

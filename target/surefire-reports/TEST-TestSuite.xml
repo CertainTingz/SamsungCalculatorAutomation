@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="4" failures="4" name="TestSuite" time="0.25" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.4.1+1-LTS-2"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.4.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\lyndo\Practical\DerivMobileAppAutomation"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="ZW"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\lyndo\Practical\DerivMobileAppAutomation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="17.0.4.1+1-LTS-2"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\lyndo\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="classworlds.conf" value="C:\Users\lyndo\Downloads\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.4.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\lyndo\Downloads\Compressed\WINDOWS.X64_193000_db_home\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-17.0.4.1\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\lyndo\Downloads\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;C:\Android\platform-tools;C:\Users\lyndo\AppData\Roaming\npm;C:\Users\lyndo\AppData\Local\Microsoft\WindowsApps;;C:\Users\lyndo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\lyndo\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Users\lyndo\Downloads\apache-maven-3.8.6-bin\apache-maven-3.8.6/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Users\lyndo\Downloads\apache-maven-3.8.6-bin\apache-maven-3.8.6\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\lyndo"/>
+    <property name="user.timezone" value="Asia/Dubai"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="lyndonsimango"/>
+    <property name="java.class.path" value="C:\Users\lyndo\Downloads\apache-maven-3.8.6-bin\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.4.1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17.0.4.1"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="C:\Users\lyndo\Downloads\apache-maven-3.8.6-bin\apache-maven-3.8.6"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="testcases.AdditionTest" name="additionTest" time="0.118">
+    <failure message="The session identified by f07caf06-1d64-4773-9c63-43649b015a63 is not known
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;
+Driver info: io.appium.java_client.AppiumDriver
+Command: [ebbe0a4f-92b4-4018-b2b1-cf7dd6850e49, findElement {using=id, value=com.google.android.calculator:id/digit_1}]
+Capabilities {appium:appActivity: com.android.calculator2.Cal..., appium:appPackage: com.google.android.calculator, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.android.calculator2.Cal..., appPackage: com.google.android.calculator, automationName: UiAutomator2, deviceName: Galaxy S23 Ultra, platformName: ANDROID, platformVersion: 14}, appium:deviceName: R5CW12WPQFB, appium:deviceUDID: R5CW12WPQFB, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:platformVersion: 14, appium:takesScreenshot: true, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: ebbe0a4f-92b4-4018-b2b1-cf7dd6850e49" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: The session identified by f07caf06-1d64-4773-9c63-43649b015a63 is not known
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;
+Driver info: io.appium.java_client.AppiumDriver
+Command: [ebbe0a4f-92b4-4018-b2b1-cf7dd6850e49, findElement {using=id, value=com.google.android.calculator:id/digit_1}]
+Capabilities {appium:appActivity: com.android.calculator2.Cal..., appium:appPackage: com.google.android.calculator, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.android.calculator2.Cal..., appPackage: com.google.android.calculator, automationName: UiAutomator2, deviceName: Galaxy S23 Ultra, platformName: ANDROID, platformVersion: 14}, appium:deviceName: R5CW12WPQFB, appium:deviceUDID: R5CW12WPQFB, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:platformVersion: 14, appium:takesScreenshot: true, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: ebbe0a4f-92b4-4018-b2b1-cf7dd6850e49
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:238)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at testcases.AdditionTest.additionTest(AdditionTest.java:16)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@1a407d53
+Application started
+</system-out>
+    <system-err>SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+</system-err>
+  </testcase>
+  <testcase classname="testcases.DivisionTest" name="divisionTest" time="0.044">
+    <failure message="The session identified by f07caf06-1d64-4773-9c63-43649b015a63 is not known
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;
+Driver info: io.appium.java_client.AppiumDriver
+Command: [ebbe0a4f-92b4-4018-b2b1-cf7dd6850e49, findElement {using=id, value=com.google.android.calculator:id/digit_8}]
+Capabilities {appium:appActivity: com.android.calculator2.Cal..., appium:appPackage: com.google.android.calculator, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.android.calculator2.Cal..., appPackage: com.google.android.calculator, automationName: UiAutomator2, deviceName: Galaxy S23 Ultra, platformName: ANDROID, platformVersion: 14}, appium:deviceName: R5CW12WPQFB, appium:deviceUDID: R5CW12WPQFB, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:platformVersion: 14, appium:takesScreenshot: true, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: ebbe0a4f-92b4-4018-b2b1-cf7dd6850e49" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: The session identified by f07caf06-1d64-4773-9c63-43649b015a63 is not known
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;
+Driver info: io.appium.java_client.AppiumDriver
+Command: [ebbe0a4f-92b4-4018-b2b1-cf7dd6850e49, findElement {using=id, value=com.google.android.calculator:id/digit_8}]
+Capabilities {appium:appActivity: com.android.calculator2.Cal..., appium:appPackage: com.google.android.calculator, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.android.calculator2.Cal..., appPackage: com.google.android.calculator, automationName: UiAutomator2, deviceName: Galaxy S23 Ultra, platformName: ANDROID, platformVersion: 14}, appium:deviceName: R5CW12WPQFB, appium:deviceUDID: R5CW12WPQFB, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:platformVersion: 14, appium:takesScreenshot: true, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: ebbe0a4f-92b4-4018-b2b1-cf7dd6850e49
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:238)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at testcases.DivisionTest.divisionTest(DivisionTest.java:20)
+</failure>
+    <system-out>Division Test
+</system-out>
+  </testcase>
+  <testcase classname="testcases.MultiplicationTest" name="multiplicationTest" time="0.044">
+    <failure message="The session identified by f07caf06-1d64-4773-9c63-43649b015a63 is not known
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;
+Driver info: io.appium.java_client.AppiumDriver
+Command: [ebbe0a4f-92b4-4018-b2b1-cf7dd6850e49, findElement {using=id, value=com.google.android.calculator:id/digit_9}]
+Capabilities {appium:appActivity: com.android.calculator2.Cal..., appium:appPackage: com.google.android.calculator, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.android.calculator2.Cal..., appPackage: com.google.android.calculator, automationName: UiAutomator2, deviceName: Galaxy S23 Ultra, platformName: ANDROID, platformVersion: 14}, appium:deviceName: R5CW12WPQFB, appium:deviceUDID: R5CW12WPQFB, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:platformVersion: 14, appium:takesScreenshot: true, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: ebbe0a4f-92b4-4018-b2b1-cf7dd6850e49" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: The session identified by f07caf06-1d64-4773-9c63-43649b015a63 is not known
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;
+Driver info: io.appium.java_client.AppiumDriver
+Command: [ebbe0a4f-92b4-4018-b2b1-cf7dd6850e49, findElement {using=id, value=com.google.android.calculator:id/digit_9}]
+Capabilities {appium:appActivity: com.android.calculator2.Cal..., appium:appPackage: com.google.android.calculator, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.android.calculator2.Cal..., appPackage: com.google.android.calculator, automationName: UiAutomator2, deviceName: Galaxy S23 Ultra, platformName: ANDROID, platformVersion: 14}, appium:deviceName: R5CW12WPQFB, appium:deviceUDID: R5CW12WPQFB, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:platformVersion: 14, appium:takesScreenshot: true, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: ebbe0a4f-92b4-4018-b2b1-cf7dd6850e49
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:238)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at testcases.MultiplicationTest.multiplicationTest(MultiplicationTest.java:22)
+</failure>
+    <system-out>Multiplication Test
+</system-out>
+  </testcase>
+  <testcase classname="testcases.SubtractionTest" name="subtractionTest" time="0.044">
+    <failure message="The session identified by f07caf06-1d64-4773-9c63-43649b015a63 is not known
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;
+Driver info: io.appium.java_client.AppiumDriver
+Command: [ebbe0a4f-92b4-4018-b2b1-cf7dd6850e49, findElement {using=id, value=com.google.android.calculator:id/digit_4}]
+Capabilities {appium:appActivity: com.android.calculator2.Cal..., appium:appPackage: com.google.android.calculator, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.android.calculator2.Cal..., appPackage: com.google.android.calculator, automationName: UiAutomator2, deviceName: Galaxy S23 Ultra, platformName: ANDROID, platformVersion: 14}, appium:deviceName: R5CW12WPQFB, appium:deviceUDID: R5CW12WPQFB, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:platformVersion: 14, appium:takesScreenshot: true, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: ebbe0a4f-92b4-4018-b2b1-cf7dd6850e49" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: The session identified by f07caf06-1d64-4773-9c63-43649b015a63 is not known
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;
+Driver info: io.appium.java_client.AppiumDriver
+Command: [ebbe0a4f-92b4-4018-b2b1-cf7dd6850e49, findElement {using=id, value=com.google.android.calculator:id/digit_4}]
+Capabilities {appium:appActivity: com.android.calculator2.Cal..., appium:appPackage: com.google.android.calculator, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.android.calculator2.Cal..., appPackage: com.google.android.calculator, automationName: UiAutomator2, deviceName: Galaxy S23 Ultra, platformName: ANDROID, platformVersion: 14}, appium:deviceName: R5CW12WPQFB, appium:deviceUDID: R5CW12WPQFB, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:platformVersion: 14, appium:takesScreenshot: true, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: ebbe0a4f-92b4-4018-b2b1-cf7dd6850e49
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:238)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at testcases.SubtractionTest.subtractionTest(SubtractionTest.java:24)
+</failure>
+    <system-out>Subtraction Test
+</system-out>
+  </testcase>
+</testsuite>
